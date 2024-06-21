@@ -1,0 +1,39 @@
+#root {
+    width: 100vw;
+    height: 100vh;
+    font-family: KGRedHands;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, var(--bright-pint) 0%, var(--smoky-black) 100%);
+    color: #1d1d1d;
+    font-size: var(--small-text);
+}
+
+:root {
+    /* Colors */
+    --bright-pint: #EA526F;
+    --cerise: #CE4962;
+    --amaranth-purple: #B03E54;
+    --redwood: #B23F54;
+    --wine: #792C38;
+    --smoky-black: #1d1d1d;
+    --ghost-white: #F7F7FF;
+    --non-photo-blue: #8DD6E9;
+    --pacific-cyan: #23B5D3;
+    --picton-blue: #25A8E2;
+    --celestial-blue: #279AF1;
+    --honolulu-blue: #257BBC;
+
+    /* Font */
+    --small-text: 18px;
+    --medium-text: 20px;
+    --big-text: 22px;
+    --title-text: 26px;
+}
+
+@font-face {
+    font-family: 'KGRedHands';
+    src: url('../public/fonts/KGRedHands.ttf');
+}

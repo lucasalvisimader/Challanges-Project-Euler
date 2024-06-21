@@ -1,3 +1,6 @@
+// css
+import './index.css';
+
 // react
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -5,7 +8,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 // pages
-import {Main} from './Main';
+import {Main} from './pages/main/Main';
+import { Header } from './components/header/Header';
+
 
 const router = createBrowserRouter([
     {
@@ -17,6 +22,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
+        <Header />
         <RouterProvider router={router}/>
     </React.StrictMode>
 );
