@@ -18,6 +18,10 @@
     color: var(--ghost-white);
     background: radial-gradient(var(--amaranth-purple) 0%, var(--redwood) 100%);
     text-shadow: 3px 3px var(--smoky-black);
-    padding: 15px;
+    padding: 15px 19px;
     border-radius: 10px;
+}
+
+#header_text_list_configuration_icon {
+    filter: drop-shadow(3px 3px var(--smoky-black)); 
 }
