@@ -2,4 +2,4 @@
 
 Hello there!
 
-This is the repository I'm going to be updating to resolve some Project Euler Challanges to increase my portfolio!
+This is the repository I'm going to be updating to resolve some Project Euler Challanges in React.js to increase my portfolio!
