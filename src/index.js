@@ -8,14 +8,20 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 // pages
-import {Main} from './pages/main/Main';
-import { Header } from './components/header/Header';
+import { Main } from './pages/main/Main';
+import { SearchResults } from './pages/search_results/SearchResults';
 
+// components
+import { Header } from './components/header/Header';
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Main />
+    },
+    {
+        path: '/search-results',
+        element: <SearchResults />
     }
 ])
 

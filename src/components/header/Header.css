@@ -22,6 +22,13 @@
     border-radius: 10px;
 }
 
-#header_text_list_configuration_icon {
+.header_text_list > * > a {
+    font-size: var(--big-text);
+    color: var(--ghost-white);
+    text-shadow: 3px 3px var(--smoky-black);
+    text-decoration: none !important;
+}
+
+.header_text_list > * > img {
     filter: drop-shadow(3px 3px var(--smoky-black)); 
 }
