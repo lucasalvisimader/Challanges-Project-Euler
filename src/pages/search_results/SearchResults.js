@@ -1,10 +1,12 @@
 // css
-import DOMPurify from 'dompurify';
 import './SearchResults.css';
 
 // react
 import { Fragment, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+
+// external
+import DOMPurify from 'dompurify';
 
 export const SearchResults = () => {
 
