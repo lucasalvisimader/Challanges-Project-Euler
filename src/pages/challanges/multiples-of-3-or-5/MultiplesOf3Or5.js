@@ -14,7 +14,7 @@ export const MultiplesOf3Or5 = () => {
     useEffect(() => {
         setDescription(DOMPurify.sanitize('If we list all the natural numbers below <b>10</b> that are multiples of <b>3</b> or <b>5</b>, we get <b>3</b>, <b>5</b>, <b>6</b> and <b>9</b>. \
             The sum of these multiples is <b>23</b>. <br/><br/> \
-            Find the sum of all the multiples of 3 or 5 below 1000.'));
+            Find the sum of all the multiples of <b>3</b> or <b>5</b> below <b>1000</b>.'));
     }, [])
 
     return (<>
