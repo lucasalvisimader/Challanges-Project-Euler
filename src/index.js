@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 // pages
 import { Main } from './pages/main/Main';
 import { SearchResults } from './pages/search_results/SearchResults';
+import { MultiplesOf3Or5 } from './pages/challanges/multiples-of-3-or-5/MultiplesOf3Or5';
 
 // components
 import { Header } from './components/header/Header';
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     {
         path: '/search-results',
         element: <SearchResults />
+    },
+    {
+        path: 'search-results/multiples-of-3-or-5',
+        element: <MultiplesOf3Or5 />
     }
 ])
 
