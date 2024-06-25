@@ -1,5 +1,31 @@
 
 .challange {
-    margin: 40px;
     font-size: var(--medium-text);
+    margin: 40px;
+}
+
+.challange_description {
+    width: fit-content;
+    background-color: var(--ghost-white);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px var(--wine);
+}
+
+.challange_code {
+    margin: 40px;
+    width: fit-content;
+    background-color: var(--ghost-white);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px var(--wine);
+}
+
+.challange_answer {
+    margin: 40px;
+    width: fit-content;
+    background-color: var(--ghost-white);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px var(--wine);
 }
