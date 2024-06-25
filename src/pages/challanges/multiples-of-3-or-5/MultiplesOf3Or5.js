@@ -20,16 +20,7 @@ export const MultiplesOf3Or5 = () => {
     }, [])
 
     const code = () => {
-        return `
-        const answer = () => {
-            let sum = 0;
-            for (let i = 0; i < 1000; i++) {
-                if (i % 3 === 0 || i % 5 === 0) {
-                    sum += i;
-                }
-            }
-            return sum;
-        }`;
+        return `const answer = ${answer.toString()}`;
     }
 
     const answer = () => {
