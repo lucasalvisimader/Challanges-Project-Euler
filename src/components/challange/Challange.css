@@ -1,7 +1,9 @@
 
 .challange {
+    display: grid;
+    flex-direction: column;
     font-size: var(--medium-text);
-    margin: 40px;
+    margin: 3%;
 }
 
 .challange_description {
@@ -12,17 +14,23 @@
     box-shadow: 10px 10px 10px var(--wine);
 }
 
-.challange_code {
-    margin: 40px;
+.challange_code_container {
+    margin-top: 5%;
     width: fit-content;
     background-color: var(--ghost-white);
-    padding: 15px;
+    padding: 25px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px var(--wine);
 }
 
+.challange_code {
+    font-family: inherit;
+}
+
 .challange_answer {
-    margin: 40px;
+    justify-self: center;
+    font-size: var(--big-text);
+    margin-top: 5%;
     width: fit-content;
     background-color: var(--ghost-white);
     padding: 15px;

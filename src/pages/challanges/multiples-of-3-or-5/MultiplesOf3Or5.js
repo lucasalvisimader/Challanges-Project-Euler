@@ -4,9 +4,11 @@ import './MultiplesOf3Or5.css';
 // react
 import { useEffect, useState } from 'react';
 
+// component
+import { Challange } from '../../../components/challange/Challange';
+
 // external
 import DOMPurify from 'dompurify';
-import { Challange } from '../../../components/challange/Challange';
 
 export const MultiplesOf3Or5 = () => {
     const [description, setDescription] = useState('');
