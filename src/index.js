@@ -12,6 +12,7 @@ import { Main } from './pages/main/Main';
 import { SearchResults } from './pages/search_results/SearchResults';
 import { MultiplesOf3Or5 } from './pages/challanges/multiples-of-3-or-5/MultiplesOf3Or5';
 import { EvenFibonacciNumbers } from './pages/challanges/even-fibonacci-numbers/EvenFibonacciNumbers';
+import { LargestPrimeFactor } from './pages/challanges/largest-prime-factor/LargestPrimeFactor';
 
 // components
 import { Header } from './components/header/Header';
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
     {
         path: 'search-results/even-fibonacci-numbers',
         element: <EvenFibonacciNumbers />
+    },
+    {
+        path: 'search-results/largest-prime-factor',
+        element: <LargestPrimeFactor />
     }
 ])
 

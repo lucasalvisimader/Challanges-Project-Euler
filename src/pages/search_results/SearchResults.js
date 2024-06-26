@@ -25,6 +25,11 @@ export const SearchResults = () => {
                 link: 'even-fibonacci-numbers', 
                 title: 'Even Fibonacci Numbers', 
                 description: DOMPurify.sanitize('Find the sum of the <b>even-valued</b> terms of Fibonacci.')
+            }, {
+                id: 3, 
+                link: 'largest-prime-factor', 
+                title: 'Largest Prime Factor', 
+                description: DOMPurify.sanitize('Find the largest prime factor of the number <b>600851475143</b>.')
             }]);
     }, [navigate]);
 
